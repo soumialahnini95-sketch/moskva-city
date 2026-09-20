@@ -14,18 +14,18 @@
 }
 
 :root {
-  --background: #f5f2ed;
-  --foreground: #20201e;
-  --border: rgba(32,32,30,.15);
-  --ring: #a64b37;
-  --font-sans: Arial, Helvetica, sans-serif;
-  --font-serif: Georgia, 'Times New Roman', serif;
+  --background: #f3f0eb;
+  --foreground: #171716;
+  --border: rgba(23,23,22,.14);
+  --ring: #c59a58;
+  --font-sans: Inter, Arial, Helvetica, sans-serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
 }
 
 @layer base {
   * { @apply border-border; }
   html { scroll-behavior: smooth; }
-  body { @apply bg-background text-foreground; margin: 0; }
+  body { @apply bg-background text-foreground; margin: 0; background-image: radial-gradient(rgba(23,23,22,.06) .6px, transparent .6px); background-size: 7px 7px; }
   button, a { cursor: pointer; }
 }
 

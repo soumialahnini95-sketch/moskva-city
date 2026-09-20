@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Moskva City — Salon de coiffure à Paris',
-  description: 'Moskva City, salon de coiffure parisien. Des coupes qui vivent, des couleurs qui vous ressemblent.',
+  title: 'Moskva City — Salon russe à Casablanca',
+  description: 'Moskva City, salon russe à Casablanca spécialisé en onglerie russe, cils et coiffure. Ouvert tous les jours de 10h à 20h.',
   generator: 'v0.app',
   icons: {
     icon: [
